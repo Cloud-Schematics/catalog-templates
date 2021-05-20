@@ -33,3 +33,7 @@ variable "cluster_all_namespaces" {
     description = "boolean for whether or not you would like to deploy into all namespaces"
     type = bool
 }
+variable "resource_group_id" {
+    description = "the id of the resource group you'd like your offering instance resource provisioned into"
+    type = string
+}
