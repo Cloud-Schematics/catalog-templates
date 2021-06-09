@@ -37,3 +37,10 @@ variable "resource_group_id" {
     description = "the id of the resource group you'd like your offering instance resource provisioned into"
     type = string
 }
+variable "channel" {
+    description = "the channel to target with the subscription"
+    type = string
+}
+variable "install_plan" {
+    description = "the install plan for the operator subscription, either manual or automatic"
+}
