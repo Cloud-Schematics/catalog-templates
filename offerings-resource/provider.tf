@@ -5,7 +5,7 @@ terraform {
   required_providers {
     ibm = {
       source = "jonwoodlief/ibm" 
-      version = "4.1.0"
+      version = "4.1.1"
     }
   }
 }
