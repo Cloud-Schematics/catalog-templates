@@ -39,8 +39,10 @@ variable "resource_group_id" {
 }
 variable "channel" {
     description = "the channel to target with the subscription"
+    default = ""
     type = string
 }
 variable "install_plan" {
     description = "the install plan for the operator subscription, either manual or automatic"
+    default = "automatic"
 }
