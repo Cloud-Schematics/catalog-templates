@@ -46,3 +46,9 @@ variable "install_plan" {
     description = "the install plan for the operator subscription, either manual or automatic"
     default = "automatic"
 }
+variable "wait_until_successful" {
+   description = "whether to wait until state is successful"
+   default = true
+   type = bool
+}
+
