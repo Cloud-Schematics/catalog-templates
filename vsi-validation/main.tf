@@ -8,6 +8,7 @@ resource "ibm_is_instance" "validation_instance" {
   
   catalog_offering {
     version_crn = var.version_crn
+    plan_crn = var.plan_crn
   }
 
   primary_network_interface {
