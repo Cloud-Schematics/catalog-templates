@@ -1,6 +1,6 @@
 terraform {
     required_providers {
-        ibm = {
+        catalog = {
             source = "jonwoodlief/catalog"
             version = "~> 3.1.1"
         }
