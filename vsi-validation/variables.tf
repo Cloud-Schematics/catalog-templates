@@ -8,6 +8,12 @@ variable "version_crn" {
     type = string
 }
 
+variable "plan_crn" {
+    description = "CRN of the Catalog plan to deploy"
+    type = string
+    default = ""
+}
+
 variable "vpc_profile" {
     description = "Profile of VPC"
     type = string
