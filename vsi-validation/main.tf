@@ -1,8 +1,3 @@
-data ibm_is_images example {
-  provider = catalog
-  catalog_managed = true
-}
-
 resource "ibm_is_instance" "validation_instance" {
   provider = catalog
   name    = var.vsi_instance_name
