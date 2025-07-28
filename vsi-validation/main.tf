@@ -19,8 +19,8 @@ resource "ibm_is_instance" "validation_instance" {
   resource_group = var.resource_group
 
   timeouts {
-    create = "15m"
-    update = "15m"
-    delete = "15m"
+    create = "35m"
+    update = "35m"
+    delete = "35m"
   }
 }
